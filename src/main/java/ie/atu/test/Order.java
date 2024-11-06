@@ -51,5 +51,15 @@ public class Order {
     public void setQuantity(String quantity) {
         this.quantity = quantity;
     }
+
+    @Override
+    public String toString() {
+        return "Order{" +
+                "orderid='" + orderid + '\'' +
+                ", name='" + name + '\'' +
+                ", pname='" + pname + '\'' +
+                ", quantity='" + quantity + '\'' +
+                '}';
+    }
 }
 
