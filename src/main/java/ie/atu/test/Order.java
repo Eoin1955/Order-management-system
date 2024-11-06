@@ -3,20 +3,20 @@ package ie.atu.test;
 public class Order {
     private String orderid;
     private String name;
-    private String pname;
-    private String quantity;
+    private String product_name;
+    private int quantity;
 
     public Order() {
         this.orderid = "";
         this.name = "";
-        this.pname = "";
-        this.quantity = "";
+        this.product_name = "";
+        this.quantity = Integer.parseInt("");
     }
 
     public void Order(){
         this.orderid = orderid;
         this.name = name;
-        this.pname = pname;
+        this.product_name = product_name;
         this.quantity = quantity;
     }
 
@@ -36,12 +36,12 @@ public class Order {
         this.name = name;
     }
 
-    public String getPname() {
+    public String getProduct_name() {
         return pname;
     }
 
-    public void setPname(String pname) {
-        this.pname = pname;
+    public void setProduct_name(String product_name) {
+        this.product_name = product_name;
     }
 
     public String getQuantity() {
@@ -57,7 +57,7 @@ public class Order {
         return "Order{" +
                 "orderid='" + orderid + '\'' +
                 ", name='" + name + '\'' +
-                ", pname='" + pname + '\'' +
+                ", pname='" + product_name + '\'' +
                 ", quantity='" + quantity + '\'' +
                 '}';
     }
