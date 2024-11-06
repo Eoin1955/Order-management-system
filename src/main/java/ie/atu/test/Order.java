@@ -4,13 +4,13 @@ public class Order {
     private String orderid;
     private String name;
     private String product_name;
-    private String quantity;
+    private int quantity;
 
     public Order() {
         this.orderid = "";
         this.name = "";
         this.product_name = "";
-        this.quantity = "";
+        this.quantity = Integer.parseInt("");
     }
 
     public void Order(){

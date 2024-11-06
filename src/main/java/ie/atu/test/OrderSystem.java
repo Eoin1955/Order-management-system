@@ -75,9 +75,10 @@ public class OrderSystem {
         System.out.println("Please Enter product name: ");
         String product_name = scanner.nextLine();
         System.out.println("Please Enter quantity needed: ");
-        String quantity = scanner.nextLine();
+        int quantity = scanner.nextInt();
 
-        }
+        return name;
+    }
 
 
 
