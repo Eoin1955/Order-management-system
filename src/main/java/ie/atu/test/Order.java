@@ -11,7 +11,7 @@ public class Order {//help me
         this.name = "";
         this.product_name = "";
         this.quantity = Integer.parseInt("");
-    }
+    }//liki
 
     public void Order(){
         this.orderid = orderid;
